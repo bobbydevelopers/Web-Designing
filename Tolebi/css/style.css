@@ -1,0 +1,827 @@
+/* CSS Resets */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    position: sticky;
+    top: 1px;
+    max-width: 1366px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2.5px);
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 75px;
+    margin: 30px 34px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Ubuntu', 'san-serif';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: black;
+}
+
+.search {
+    margin: 30px 4px;
+
+}
+
+.search input {
+
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+
+.btn-lang {
+    margin: 30px 34px;
+}
+
+#news h1 {
+    margin: 100px 70px;
+    margin-bottom: 22px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.world-news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.world-news a {
+    margin: 3px 70px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.news-image {
+    display: flex;
+    margin-bottom: 60px;
+
+}
+
+.left {
+    margin: 30px 70px;
+    margin-bottom: 22px;
+    margin-right: 20px;
+}
+
+
+.right {
+    margin: 30px 70px;
+    margin-bottom: 22px;
+}
+
+.right h4 {
+    /* Text */
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    /* Grey */
+
+    color: #989898;
+}
+
+
+
+.right h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.right p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #282828;
+}
+
+.right a {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+#headline {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+
+.left-headline {
+    width: 40%;
+    margin: 14px 71px;
+}
+
+.left-headline h4 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    /* Grey */
+
+    color: #989898;
+
+}
+
+.left-headline h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.left-headline p {
+    /* Text */
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+
+}
+
+
+
+.right-headline {
+    width: 40%;
+    margin: 14px 71px;
+}
+
+.right-headline h4 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    /* Grey */
+
+    color: #989898;
+
+}
+
+.right-headline h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.right-headline p {
+    /* Text */
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+
+}
+
+.hr {
+    border: 2px solid grey;
+}
+
+.main-line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* Kazakistan News Section Start Here */
+.box-news {
+    display: flex;
+
+}
+
+
+/* Kazakistan News Left Start Here */
+.kazakistan-news-detail-left {
+    width: 50%;
+}
+
+/* Kazakistan News Left End Here */
+
+
+
+/* Item-Box-News Start Here */
+.item-news-kaz {
+    margin: 30px 62px;
+}
+
+
+.item-news-kaz img {
+    width: 500px;
+    height: 300px;
+}
+
+
+.item-news-kaz h4 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #989898;
+
+}
+
+.item-news-kaz h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    width: 579px;
+    height: 58px;
+
+}
+
+.item-news-kaz p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    width: 579px;
+    height: 32px;
+    color: #989898;
+
+
+}
+
+.item-news-kaz a {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    width: 64px;
+    height: 16px;
+}
+
+/* Item-Box-News End Here */
+
+
+
+/* Kazakistan News Right Start Here */
+.kazakistan-news-detail-right {
+    width: 50%;
+}
+
+/* Kazakistan News Right End Here */
+
+/* ----------------------------------------------------------------------- */
+
+
+
+/* Media Section Start Here */
+#media {
+    margin: 3px 70px;
+    height: 100%;
+}
+
+#media h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.sub-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-head h4 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    color: #000000;
+}
+
+.sub-head a {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #989898;
+}
+
+
+#media h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: -30px;
+}
+
+#media ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: -36px;
+
+}
+
+#active {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+
+#other {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #989898;
+
+}
+
+
+/* Book Section Start Here */
+
+
+.box-books {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.book-left {
+    width: 42%;
+    margin: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+/* Book Item  start here*/
+.item-book {
+    display: flex;
+}
+
+.img-book {
+    width: 38%;
+}
+
+.img-book img {
+    width: 100%;
+
+}
+
+
+.book-detail {
+    width: 63%;
+
+    margin: -1px 18px;
+
+}
+
+
+.book-detail h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 3px 0px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+.book-detail h4 {
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #989898;
+
+
+}
+
+
+.book-detail p {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 18px;
+    color: #000000;
+
+}
+
+.book-detail a {
+    width: 137px;
+    height: 16px;
+
+    /* Text */
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    margin: 3px 3px;
+    border-radius: 5px;
+}
+
+
+/* Book Item  End here*/
+
+
+
+.book-right {
+    width: 42%;
+    /* border: 1px solid red; */
+    margin: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Book Section End Here */
+
+
+
+
+/* Video and Gallery Section Start Here */
+
+#video {
+    /* border: 1px solid red; */
+    max-width: 90%;
+    margin: auto;
+    height: 100%;
+    background: rgba(232, 247, 255, 0.6);
+}
+
+
+.main-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.main-heading h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.main-heading a {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #989898;
+}
+
+
+.video-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0px
+}
+
+
+.load-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.load-btn a {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    background: #71CCFF;
+    border-radius: 10px;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    gap: 50px;
+}
+
+.image-line {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* Video and Gallery Section End Here */
+
+
+/* Newspaper and Events Section Start Here */
+#newspaper {
+    /* border: 1px solid red; */
+    max-width: 90%;
+    margin: auto;
+    height: 100%;
+
+}
+
+
+.newspaper {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+}
+
+
+
+.item-newspper h3 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #989898;
+}
+
+.item-newspper h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.item-newspper h4 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #989898;
+
+}
+
+
+.serach-box-result {
+    background: #71CCFF;
+    height: 600px;
+    margin: 93px 0px;
+    background: rgba(159, 221, 255, 0.37);
+    border: 5px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+.serach-box-result h2 {
+    text-align: center;
+    margin: 228px auto;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+
+    color: #000000;
+}
+
+/* Newspaper and Events Section End Here */
+
+
+/* 
+Footer section Start Here */
+
+#footer {
+    width: 100%;
+    height: 635px;
+    background: #C7EBFF;
+
+}
+
+
+.footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 102px 9px;
+
+}
+
+
+.menu h2 {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin: 2px 38px;   
+}
+
+.menu ul
+{
+list-style: none;
+}
+
+
+.menu ul li
+{
+    padding: 20px 2px;
+}
+
+.menu ul li a
+{
+text-decoration: none;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+
+}
+
+
+
+
+.social h2 {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin: 2px 38px;  
+}
+
+.social ul
+{
+list-style: none;
+}
+
+.social ul li
+{
+    padding: 20px 2px;
+}
+
+.social ul li a
+{
+text-decoration: none;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+
+
+
+.contacts h2 {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin: 2px 38px;  
+}
+
+
+.contacts ul
+{
+list-style: none;
+}
+
+.contacts ul li
+{
+    padding: 20px 2px;
+}
+
+
+.contacts ul li 
+{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+}
+
+.copyright
+{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright h3
+{font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    
+    color: #000000;}

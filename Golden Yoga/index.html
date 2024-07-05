@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Golden Yoga</title>
+
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    height: 868px;
+    width: 100%;
+    background-image: url('yoga.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    background: rgba(255, 255, 255, 0.8);
+    position: sticky;
+    top: 1px;
+    /* border: 2px solid red; */
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 15px;
+
+}
+
+.login li {
+    margin: 5px;
+}
+
+
+nav input {
+    border-radius: 98px;
+    width: 100px;
+}
+
+nav button {
+
+    width: 129px;
+    padding: 7px;
+    font-family: 'Lato', 'san-serif';
+    font-size: 14px;
+    margin: auto;
+    border: 4px solid black;
+    text-align: center;
+    border-radius: 16px;
+    margin: 7px 11px;
+    cursor: pointer;
+}
+
+.section p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lato', 'san-serif';
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.image-section {
+    margin: 47px 240px;
+
+}
+
+.image-section img {
+    height: 400px;
+    width: 400px;
+    margin-right: 5px;
+
+}
+
+.section button {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    font-family: 'Lato', 'san-serif';
+    font-size: 20px;
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: 52px 565px;
+    cursor: pointer;
+
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(231, 229, 229);
+    margin-bottom: 50px;
+
+}
+
+.about img {
+    width: 473px;
+    margin: 23px 93px;
+    /* border: 2px solid red; */
+}
+
+.about p {
+    width: 473px;
+    margin: 49px 93px;
+    /* border: 2px solid red; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    word-spacing: 2px;
+}
+
+.gallery {
+    background-color: rgb(231, 229, 229);
+    height: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+
+}
+
+
+.gallery .box {
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid red; */
+    margin: 20px 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(173, 170, 165);
+}
+
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin: 17px 0px;
+    font-size: 18px;
+}
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+
+            <h3>Golder Yoga</h3>
+            <ul>
+                <li>Branches</li>
+                <li>|</li>
+                <li>Helthy Life</li>
+                <li>|</li>
+                <li>Events</li>
+                <li>|</li>
+                <li>Contact us</li>
+            </ul>
+
+            <ul class="login">
+                <li>Login</li>
+                <li>Sign up</li>
+            </ul>
+            <form action="" method="get">
+                <input type="text" placeholder="Search">
+            </form>
+            <button>JOIN NOW</button>
+        </nav>
+
+    </header>
+
+    <div class="section">
+        <p>Yoga is a mirror to look at ourselves from within</p>
+        <div class="image-section">
+            <img src="images/1.jpg" alt="">
+            <img src="images/2.jpg" alt="">
+        </div>
+        <button>
+            START NOW
+        </button>
+    </div>
+
+    <div class="about">
+
+        <p>
+
+            Two general theories exist on the origins of yoga. The linear model holds that yoga originated in the Vedic
+            period, as reflected in the Vedic textual corpus, and influenced Buddhism; according to author Edward
+            .<br><br>
+            Yoga-like practices are first mentioned in the Rigveda. Yoga is referred to in a number of the
+            Upanishads.The first known appearance of the word "yoga" with the same meaning as the modern term is in the
+            Katha Upanishad, which was probably composed between the fifth and third centuries BCE.
+        </p>
+
+        <img src="images/statue.jpg" alt="">
+    </div>
+
+
+
+    <div class="gallery">
+
+
+        <img src="images/a.jpg" alt="" class="box">
+        <img src="images/b.jpg" alt="" class="box">
+        <img src="images/3.jpg" alt="" class="box">
+        <img src="images/4.jpg" alt="" class="box">
+        <img src="images/5.jpg" alt="" class="box">
+        <img src="images/6.jpg" alt="" class="box">
+        <img src="images/7.jpg" alt="" class="box">
+        <img src="images/8.jpg" alt="" class="box">
+
+    </div>
+
+    <footer>
+
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>Services</li>
+            <li>Offers </li>
+        </ul>
+
+        <div class="foot">
+            <p>dveloper@gmail.com</p>
+            <p>Designed by Developer</p>
+        </div>
+
+        <ul>
+            <li>Healthy Life</li>
+            <li>Branches</li>
+            <li>Events</li>
+            <li>Login</li>
+            <li>Sign up</li>
+        </ul>
+
+
+    </footer>
+
+</body>
+
+</html>

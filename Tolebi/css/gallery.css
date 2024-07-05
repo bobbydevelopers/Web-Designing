@@ -1,0 +1,357 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ------------------------------------------------------- */
+/* Navigation */
+
+#navbar {
+    display: flex;
+    max-width: 90%;
+    margin: 30px auto;
+    gap: 251px;
+}
+
+/* Navigation logo */
+.logo {
+    display: flex;
+    gap: 119px;
+}
+
+/* Navigation Text*/
+.logo h4 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+/* Navigation Menu  */
+#navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 112px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+/* End of Navigation */
+/* ------------------------------------------------------- */
+
+
+
+/* Start of Button */
+/* ------------------------------------------------------- */
+#btn-share {
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.right {
+    display: flex;
+    gap: 30px;
+}
+
+
+.like-share {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+
+
+#item-share {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    border: 1px solid grey;
+    padding: 19px;
+    border-radius: 16px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+
+#item-share a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.download {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    width: 167%;
+    padding: 19px;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+
+#item-download {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    border: 1px solid grey;
+    padding: 19px;
+    border-radius: 16px;
+    align-items: center;
+    cursor: pointer;
+    background: rgba(13, 153, 125, 0.6);
+}
+
+
+
+#item-download a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+}
+
+/* End of Button */
+/* ------------------------------------------------------- */
+
+
+
+/* Start of single inage */
+/* ------------------------------------------------------- */
+#single-image {
+    width: 90%;
+    margin: 0px auto;
+    /* border: 1px solid; */
+
+}
+
+.image {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    width: 100%;
+    margin: 50px auto;
+
+}
+
+/* end of single inage */
+/* ------------------------------------------------------- */
+
+
+/* Start of multiple single inage */
+/* ------------------------------------------------------- */
+
+
+#multiple-image {
+    /* border: 1px solid; */
+    width: 90%;
+    margin: 50px auto;
+    height: 100%;
+
+}
+
+#multiple-image h1
+{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000000;    
+}
+
+
+#multiple-image
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+#multiple
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.load-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.load-btn a {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    background: #71CCFF;
+    border-radius: 10px;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+}
+
+/* ends of multiple single inage */
+/* ------------------------------------------------------- */
+
+
+/* Footer headline Start Here */
+/* ------------------------------------------------------- */
+
+#footer {
+    width: 100%;
+    height: 635px;
+    background: #C7EBFF;
+
+}
+
+
+.footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 102px 9px;
+
+}
+
+
+
+
+.menu h2 {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin: 1px 4px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+
+.menu ul li {
+    padding: 20px 2px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
+
+
+
+
+.social h2 {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin: 1px 4px;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li {
+    padding: 20px 2px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+
+
+.contacts h2 {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin: 1px 4px;
+}
+
+
+.contacts ul {
+    list-style: none;
+}
+
+.contacts ul li {
+    padding: 20px 2px;
+}
+
+
+.contacts ul li {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright h3 {
+    font-family: 'Lato';
+}
+
+/* Footer  End Here */
+/* ------------------------------------------------------- */

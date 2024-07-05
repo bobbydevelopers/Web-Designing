@@ -1,0 +1,323 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ------------------------------------------------------- */
+/* Navigation */
+
+#navbar {
+    display: flex;
+    max-width: 90%;
+    margin: 30px auto;
+    gap: 251px;
+}
+
+/* Navigation logo */
+.logo {
+    display: flex;
+    gap: 119px;
+}
+
+/* Navigation Text*/
+.logo h4 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+
+/* Navigation Menu  */
+#navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 112px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+/* End of Navigation */
+/* ------------------------------------------------------- */
+
+
+
+/* Start of Main-headline */
+/* ------------------------------------------------------- */
+#main-headline {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headline h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+
+}
+
+
+.headline h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #989898;
+}
+
+
+.headline h3 {
+    /* Text (news) */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    /* Grey */
+
+    color: #989898;
+
+}
+
+/* End of Main-headline */
+/* ------------------------------------------------------- */
+
+
+/* start  of Newspaper-headline */
+/* ------------------------------------------------------- */
+.newspaper {
+    display: flex;
+    margin: 50px 0px;
+    gap: 30px;
+}
+
+
+
+.left-paper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* border: 1px solid; */
+    width: 65%;
+}
+
+.left-paper p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #000000;
+}
+
+
+
+.right-paper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* border: 1px solid; */
+    width: 35%;
+}
+
+.right-paper h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+}
+
+
+#item-other-paper
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#item-other-paper img {
+    width: 100%;
+}
+
+
+#item-other-paper h2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #989898;
+}
+
+
+#item-other-paperr h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
+
+#item-other-paper h4 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #989898;
+}
+
+/* end  of Newspaper-headline */
+/* ------------------------------------------------------- */
+
+
+/* Footer headline Start Here */
+/* ------------------------------------------------------- */
+
+#footer {
+    width: 100%;
+    height: 635px;
+    background: #C7EBFF;
+
+}
+
+
+.footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 102px 9px;
+
+}
+
+
+
+
+.menu h2 {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin: 1px 4px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+
+.menu ul li {
+    padding: 20px 2px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
+
+
+
+
+.social h2 {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin: 1px 4px;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li {
+    padding: 20px 2px;
+}
+
+.social ul li a {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+
+
+.contacts h2 {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #000000;
+    margin: 1px 4px;
+}
+
+
+.contacts ul {
+    list-style: none;
+}
+
+.contacts ul li {
+    padding: 20px 2px;
+}
+
+
+.contacts ul li {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright h3 {
+    font-family: 'Lato';
+}
+
+/* Footer  End Here */
+/* ------------------------------------------------------- */

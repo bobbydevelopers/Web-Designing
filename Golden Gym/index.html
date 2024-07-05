@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Gold Gym</title>
+
+    <style>
+        /* CSS Reset */
+
+        body {
+            margin: 0;
+            padding: 0;
+            color: white;
+            background: url('images/bg.jpg');
+            height: 30px;
+
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 10px;
+            /* border: 2px solid red; */
+        }
+
+        .left img {
+            width: 80px;
+            filter: invert();
+            margin: 0px 8px;
+
+        }
+
+        .left h4 {
+            margin: 0px;
+            font-family: 'Raleway', 'san-serif';
+        }
+
+        .mid {
+            display: block;
+            top: 20px;
+            margin: 30px auto;
+            width: 700px;
+            /* border: 2px solid red; */
+        }
+
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 60px;
+            top: 20px;
+            /* border: 2px solid red; */
+        }
+
+        .right button {
+            background-color: black;
+            color: white;
+            padding: 10px 13px;
+            border-radius: 10px;
+            border: 2px solid white;
+            font-family: 'Raleway', 'san-serif';
+            cursor: pointer;
+        }
+
+        nav .navbar li {
+            display: inline-block;
+            list-style: none;
+            margin: 0px 20px;
+            font-family: 'Raleway', 'san-serif';
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: white;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+
+        .container {
+            border: 2px solid white;
+            width: 500px;
+            display: block;
+            margin: 100px 56px;
+
+        }
+
+        .form-group input {
+            margin: 7px 73px;
+
+
+            width: 320px;
+            font-size: 20px;
+
+            text-align: center;
+            color: black;
+            font-weight: 500;
+        }
+
+
+
+        .container h3 {
+            font-size: 35px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .button button {
+            width: 320px;
+            background-color: black;
+            color: white;
+            padding: 10px 13px;
+            border-radius: 10px;
+            border: 2px solid white;
+
+            cursor: pointer;
+            font-size: 20px;
+            margin: 20px 75px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="images/logo.jpg" alt="">
+            <h4>Gold Fitness</h4>
+        </div>
+
+        <div class="mid">
+            <nav>
+                <div class="navbar">
+                    <ul>
+
+                        <li> <a href="#" class="active">Home</a></li>
+                        <li> <a href="#">About Us</a></li>
+                        <li> <a href="#">Fitness Calculator</a></li>
+                        <li> <a href="#"> Contact Us </a></li>
+
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+        <div class="right">
+
+            <button class="btn">
+                Call Now
+            </button>
+        </div>
+    </header>
+
+
+    <div class="container">
+
+        <h3>Join The Best Gym Of Pune </h3>
+        <div class="form-group">
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder=" Age">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder=" Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Phone">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder=" Email Id">
+        </div>
+
+        <div class="button">
+            <button>Submit</button>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
